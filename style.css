@@ -1,12 +1,13 @@
 
 
- body {
+body {
     text-align: center;
-
-    background: #eee;
+    color: #25282B
+    background: #e5e5e5;
 }
 
 button {
+    color: #FF5E84;
     border: none;
 
     font-weight: bold;
