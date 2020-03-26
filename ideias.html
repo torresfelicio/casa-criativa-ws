@@ -7,60 +7,76 @@
     <link rel="stylesheet" href="style.css">
     <title>Ideias - Casa Criativa</title>
 </head>
-<body>
-    <header>
-        <img src="https://i.imgur.com/27pdZLL.png" alt="imagem da logomarca">
-        <nav>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="#">Ideias</a></li>
-            <li><a href="#">Nova Ideia</a></li>
-        </nav>
-    </header>
-    <section id="title">
-        <p>em exibição</p>
-        <h1>Ideias</h1>
-    </section>
-    <main>
-        <section id="last-ideias">
+<body id="page-ideias">
+
+    <div id="container">
+        <header>
+            <a href="index.html">
+            <img src="https://i.imgur.com/27pdZLL.png" alt="imagem da logomarca">
+            </a>
+            <nav>
+                <li><a href="index.html">Início</a></li>
+                <li><a class="button" href="#" onclick="onOff()">Nova Ideia</a></li>
+            </nav>
+        </header>
+        <section id="title">
+            <p>em exibição</p>
+            <h1>Ideias</h1>
+        </section>
+        <main>
+            <section id="ideas">
+                <div class="idea">
+                    <img src="https://image.flaticon.com/icons/svg/2729/2729007.svg" alt="imagem de curos de programação."> 
+                    <div class="content">
+                        <h3>Cursos de Programação</h3>
+                        <p>Estudo</p>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis et obcaecati laudantium accusamus. Soluta tempore nobis, adipisci quisquam harum facere libero at hic labore, veritatis molestiae praesentium, exercitationem laboriosam!
+                        </div>
+                        <a href="#">Ir para a Ideia</a>
+                    </div>
+                </div>
             <div class="idea">
-                <img src="https://image.flaticon.com/icons/svg/2729/2729007.svg" alt="imagem de curos de programação."> 
+                <img src="https://image.flaticon.com/icons/svg/2729/2729027.svg" alt="imagem de Meditação."> 
                 <div class="content">
-                    <h3>Cursos de Programação</h3>
-                    <p>Estudo</p>
+                    <h3>Cursos de Meditação</h3>
+                    <p>Mentalidade</p>
                     <div class="description">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis et obcaecati laudantium accusamus. Soluta tempore nobis, adipisci quisquam harum facere libero at hic labore, veritatis molestiae praesentium, exercitationem laboriosam!
                     </div>
                     <a href="#">Ir para a Ideia</a>
                 </div>
             </div>
-        <div class="idea">
-            <img src="https://image.flaticon.com/icons/svg/2729/2729027.svg" alt="imagem de Meditação."> 
-            <div class="content">
-                <h3>Cursos de Meditação</h3>
-                <p>Mentalidade</p>
-                <div class="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis et obcaecati laudantium accusamus. Soluta tempore nobis, adipisci quisquam harum facere libero at hic labore, veritatis molestiae praesentium, exercitationem laboriosam!
+    
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729005.svg" alt="imagem de cuso de exercicio."> 
+                <div class="content">
+                    <h3>Exercícios</h3>
+                    <p>Saude</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis et obcaecati laudantium accusamus. Soluta tempore nobis, adipisci quisquam harum facere libero at hic labore, veritatis molestiae praesentium, exercitationem laboriosam!
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
                 </div>
-                <a href="#">Ir para a Ideia</a>
-            </div>
-        </div>
+            </div> 
 
-        <div class="idea">
-            <img src="https://image.flaticon.com/icons/svg/2729/2729005.svg" alt="imagem de cuso de exercicio."> 
-            <div class="content">
-                <h3>Exercícios</h3>
-                <p>Saude</p>
-                <div class="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis et obcaecati laudantium accusamus. Soluta tempore nobis, adipisci quisquam harum facere libero at hic labore, veritatis molestiae praesentium, exercitationem laboriosam!
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729032.svg" alt="imagem de microfone karaoke."> 
+                <div class="content">
+                    <h3>Karaoke</h3>
+                    <p>Diversão</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis et obcaecati laudantium accusamus. Soluta tempore nobis, adipisci quisquam harum facere libero at hic labore, veritatis molestiae praesentium, exercitationem laboriosam!
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
                 </div>
-                <a href="#">Ir para a Ideia</a>
-            </div>
-        </div> 
-        </section>
-    </main>
-        <footer>
-            Com ♥️ <a href="http://rocketseat.com.br">Rocketseat</a>
-        </footer>
+            </div> 
+            </section>
+        </main>
+            <footer>
+                Com ♥️ <a href="http://rocketseat.com.br" target="_blank">Rocketseat</a>
+            </footer>
+    </div>
     
         <div id="modal" class="hide">
             <div class="content">
